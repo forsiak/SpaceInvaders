@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tests>
+	<Test np="1">
+		<Step no="1">
+			Przechylić Telefon w lewo
+		</Step>
+		<Result>
+			Przesuniecie statku w kierunku lewym
+		</Result>
+	</Test>
+
+
+	<Test np="2">
+		<Step no="1">
+			Przechylić Telefon w prawo
+		</Step>
+		<Result>
+			Przesuniecie statku w kierunku prawym
+		</Result>
+	</Test>
+
+
+	<Test np="3">
+		<Step no="1">
+			Kliknac wyswietlacz
+		</Step>
+		<Result>
+			Oddanie starzalu przez statek
+		</Result>
+	</Test>
+
+	<Test np="4">
+		<Step no="1">
+			Ustawic statek po przeciwnikiem
+		</Step>
+		<Step no="2">
+			Kliknac wyswietlacz
+		</Step>
+		<Result>
+			Zniszczenie przeciwnika
+		</Result>
+	</Test>
+
+	<Test np="5">
+		<Step no="1">
+			Ustawic sie pod przeciwnikiem
+		</Step>
+
+		<Step no="2">
+			Zaczekać aż przeciwnik odda strzał
+		</Step>
+		<Result>
+			Zmniejszenie liczby zyc.
+		</Result>
+	</Test>
+
+	<Test np="6">
+		<Step no="1">
+			Ustawic sie pod przeciwnikiem
+		</Step>
+
+		<Step no="2">
+			Zaczekać aż przeciwnik odda strzał
+		</Step>
+
+		<Step no="3">
+			Wystawić się na kolejny strzał przeciwnika w przeciągu
+			2s po pierwszym
+			strzale.
+		</Step>
+		<Result>
+			Po drugim strzale liczba zyc się nie zmniejszy.
+		</Result>
+	</Test>
+
+
+	<Test np="7">
+		<Step no="1">
+			Ustawić sie pod przeciwnikiem
+		</Step>
+
+		<Step no="2">
+			Oddac strzal, niszcząc wroga
+		</Step>
+		<Result>
+			Zwiększenie liszby punktow
+		</Result>
+	</Test>
+
+
+	<Test np="8">
+		<Step no="1">
+			Ustawić sie pod przeciwnikiem
+		</Step>
+
+		<Step no="2">
+			Oddac strzal, niszcząc wroga
+		</Step>
+
+		<Step no="3">
+			Powtarzac od kroku no1 az do zniszczenia wszystkich
+			przeciwnikow
+		</Step>
+
+		<Result>
+			Pojawienie sie monitu z informacja o przejsciu poziomu.
+		</Result>
+	</Test>
+
+
+	<Test np="9">
+		<Step no="1">
+			Ustawić sie pod przeciwnikiem
+		</Step>
+		<Step no="2">
+			Zaczekac az preciwnik odda strzal.
+		</Step>
+		<Step no="3">
+			Zaczekac dwie sekundy
+		</Step>
+		<Step no="4">
+			Potarzać od kroku pierwszego aż do wykorzystania
+			wszsytkich życ.
+		</Step>
+		<Result>
+			Pojawienie sie monitu z informacja o przegranej.
+		</Result>
+	</Test>
+
+
+	<Test np="10">
+		<Step no="1">
+			Ustawić sie pod przeciwnikiem
+		</Step>
+		<Step no="2">
+			Zaczekac az preciwnik odda strzal.
+		</Step>
+		<Step no="3">
+			Zaczekac dwie sekundy
+		</Step>
+
+		<Step no="5">
+			Potarzać od kroku pierwszego aż do wykorzystania
+			wszsytkich życ.
+		</Step>
+		<Step no="5">
+			Kliknac napis "Restart"
+		</Step>
+		<Result>
+			Rozpoczecie gry od nowa.
+		</Result>
+	</Test>
+
+
+	<Test np="11">
+		<Step no="1">
+			Ustawić sie pod przeciwnikiem
+		</Step>
+		<Step no="2">
+			Zaczekac az preciwnik odda strzal.
+		</Step>
+		<Step no="3">
+			Zaczekac dwie sekundy
+		</Step>
+		<Step no="4">
+			Zaczekac dwie sekundy
+		</Step>
+		<Step no="5">
+			Potarzać od kroku pierwszego aż do wykorzystania
+			wszsytkich życ.
+		</Step>
+		<Step no="6">
+			Kliknac napis "Restart"
+		</Step>
+		<Result>
+			Rozpoczecie gry od nowa.
+		</Result>
+	</Test>
+
+
+	<Test np="12">
+		<Step no="1">
+			Kliknac ikonke w prawym dolnym rogu.
+		</Step>
+		<Result>
+			Wyjscie z gry
+		</Result>
+	</Test>
+
+
+
+	<Test np="13">
+		<Step no="1">
+			Kliknac ikonke w prawym dolnym rogu.
+		</Step>
+		<Result>
+			Wyjscie z gry
+		</Result>
+	</Test>
+
+
+	<Test np="14">
+		<Step no="1">
+			Ustawić sie pod przeciwnikiem
+		</Step>
+
+		<Step no="2">
+			Oddac strzal, niszcząc wroga
+		</Step>
+		<Step no="3">
+			Powtarzac od kroku no1 az do zniszczenia wszystkich
+			przeciwnikow
+		</Step>
+		<Step no="4">
+			Poczekać na pojawienie sie monitu o przejsciu poziomu.
+		</Step>
+		<Step no="5">
+			Kliknąc napis "Next level"
+		</Step>
+		<Result>
+			Przejscie do kolejnego levelu
+		</Result>
+	</Test>
+
+
+	<Test np="15">
+		<Step no="1">
+			Ustawić sie pod przeciwnikiem.
+		</Step>
+
+		<Step no="2">
+			Oddac strzal, niszcząc wroga.
+		</Step>
+		<Step no="3">
+			Powtarzac od kroku no1 az do zniszczenia wszystkich.
+			przeciwnikow
+		</Step>
+		<Step no="4">
+			Poczekać na pojawienie sie monitu o przejsciu poziomu.
+		</Step>
+		<Step no="5">
+			Kliknąc napis "Next level".
+		</Step>
+
+		<Step no="6">
+			Ustawic sie pod przeciwnikiem.
+		</Step>
+
+		<Step no="7">
+			Oddac strzal niszczac wroga.
+		</Step>
+		<Result>
+			Podwoje się ilosci punktow za zniszczenie jednego przeciwnika.
+		</Result>
+	</Test>
+
+
+	<Test np="16">
+		<Step no="1">
+			Zaczekac ok. 10 s unikajac pociskow przeciwnikow
+		</Step>
+		<Result>
+			Przeciwni powinni zbilizyc sie do gracza.
+		</Result>
+	</Test>
+
+
+	<Test np="17">
+		<Step no="1">
+			Ustawić sie pod przeciwnikiem.
+		</Step>
+
+		<Step no="2">
+			Oddac strzal, niszcząc wroga.
+		</Step>
+		<Step no="3">
+			Powtarzac od kroku no1 az do zniszczenia wszystkich.
+			przeciwnikow
+		</Step>
+		<Step no="4">
+			Poczekać na pojawienie sie monitu o przejsciu poziomu.
+		</Step>
+		<Step no="5">
+			Kliknąc napis "Next level".
+		</Step>
+
+		<Step no="6">
+			Ustawic sie pod przeciwnikiem.
+		</Step>
+
+		<Step no="7">
+			Oddac strzal niszczac wroga.
+		</Step>
+		<Result>
+			Podwoje się ilosci punktow za zniszczenie jednego przeciwnika.
+		</Result>
+	</Test>
+
+
+
+	<Test np="19">
+		<Step no="1">
+			Zaczekac ok. 10 s unikajac pociskow przeciwnikow
+		</Step>
+		<Step no="2">
+			Powtarzac krok no = 1 do momentu bezpośredniego kontaktu gracza z
+			przeciwnikami
+		</Step>
+		<Result>
+			Pojawienie sie monitu o przegranej
+		</Result>
+	</Test>
+
+
+	<Test np="20">
+		<Step no="1">
+			Zaczekac ok. 10 s unikajac pociskow przeciwnikow
+		</Step>
+		<Step no="2">
+			Powtarzac krok no = 1 do momentu bezpośredniego kontaktu gracza z
+			przeciwnikami
+		</Step>
+		<Step no="3">
+			Klikniecie napisu restart
+		</Step>
+		<Result>
+			Restart gry
+		</Result>
+	</Test>
+
+
+
+	<Test np="21">
+		<Step no="1">
+			Zaczekac ok. 10 s unikajac pociskow przeciwnikow
+		</Step>
+		<Step no="2">
+			Powtarzac krok no = 1 do momentu bezpośredniego kontaktu gracza z
+			przeciwnikami
+		</Step>
+		<Step no="3">
+			Klikniecie napisu0 restart
+		</Step>
+		<Result>
+			Restart gry
+		</Result>
+	</Test>
+	
+	
+		<Test np="22">
+		<Step no="1">
+			Ustawić sie pod przeciwnikiem.
+		</Step>
+
+		<Step no="2">
+			Oddac strzal, niszcząc wroga.
+		</Step>
+		<Step no="3">
+			Powtarzac od kroku no1 az do zniszczenia wszystkich.
+			przeciwnikow
+		</Step>
+		<Step no="4">
+			Poczekać na pojawienie sie monitu o przejsciu poziomu.
+		</Step>
+		<Step no="5">
+			Kliknąc napis "Next level".
+		</Step>
+		<Result>
+			Zwiększe się częstotlowości kolejnych przesunięć przeciwników w kierunku gracza.
+		</Result>
+	</Test>
+
+
+</Tests>
